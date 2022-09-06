@@ -1,0 +1,47 @@
+body {
+    background-color: grey;
+}
+
+.calculator {
+    background-color: green;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.screen {
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 100px;
+}
+
+.keypad {
+    background-color: rgb(13, 238, 62);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number, .operand, .annul, .equal, .reset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 98px;
+    height: 98px;
+    border: 1px solid black;
+    font-size: 40px;
+}
+
+.operand, .annul, .equal, .reset {
+    background-color: orangered;
+}
+
+.operation {
+    font-size: 30px;
+    color: lightgrey;
+}
+
+.result {
+    font-size: 45px;
+}
